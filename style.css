@@ -1,0 +1,31 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header, aside, main, footer{
+    border: solid 1px black;
+    float: left;
+}
+header{
+    height: 100px;
+    width: 100%;
+}
+aside{
+    min-height: calc(100vh - 100px - 150px);
+    width: 20%;
+}
+main{
+    min-height: calc(100vh - 100px - 150px);
+    width: 60%;
+}
+footer{
+    height: 150px;
+    width: 100%;
+}
+.coluna{
+    border: solid 1px blue;
+    float: left;
+    width: 25%;
+    height: 100%;
+}
